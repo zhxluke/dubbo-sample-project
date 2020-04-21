@@ -1,14 +1,3 @@
-分布式系统基础架构              Hadoop
-REST框架                        Restlet
-J2EE框架                        Spring
-高性能Java网络框架              MINA
-作业调度框架                    Quartz
-服务框架                        Dubbo
-JMS消息服务器                   ActiveMQ
-淘宝Hadoop作业平台              宙斯Zeus
-阿里巴巴分布式数据库同步系统    otter
-业务流程管理(BPM)和工作流系统   Activiti
+this is a simple.
 
-
-Git has a mutable index called stage.
-Git tracks changes of files.
+dubbo + springboot + zookeeper
