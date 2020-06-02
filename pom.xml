@@ -19,7 +19,6 @@
     </properties>
     
 	<modules>
-		<module>dubbo-sample-parent</module>
 		<module>dubbo-sample-api</module>
 		<module>dubbo-sample-provider</module>
 		<module>dubbo-sample-consumer</module>

@@ -11,6 +11,6 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     public String query(String name) {
-        return "zhxl";
+        return name;
     }
 }

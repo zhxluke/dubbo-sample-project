@@ -1,3 +1,3 @@
 this is a simple.
 
-dubbo + springboot + zookeeper
+dubbo + springboot + nacos
