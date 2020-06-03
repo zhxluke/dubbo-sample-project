@@ -11,7 +11,7 @@ import com.lcb.demo.sample.service.TestService;
 
 
 /**
- * 类DemoController.java的实现描述：demo
+ * 类TestController.java的实现描述：demo
  *
  * @author zhaoxiaoliang 2020年4月19日 下午10:49:08
  */

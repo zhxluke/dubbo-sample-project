@@ -2,7 +2,7 @@ package com.lcb.demo.sample.provider;
 
 import javax.annotation.Resource;
 
-import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.DubboService;
 
 import com.lcb.demo.sample.service.UserService;
 
@@ -11,7 +11,7 @@ import com.lcb.demo.sample.service.UserService;
  *
  * @author zhaoxiaoliang 2020年4月20日 下午5:24:37
  */
-@Service(version = "${demo.service.version}")
+@DubboService(version = "${demo.service.version}")
 public class DemoServiceImpl implements DemoService {
     
     @Resource

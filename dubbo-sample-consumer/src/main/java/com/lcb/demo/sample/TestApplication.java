@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Dubbo Registry ZooKeeper Consumer Bootstrap
+ * Dubbo Registry Nacos Consumer Bootstrap
  */
 @SpringBootApplication
 @EnableDubbo(scanBasePackages="com.lcb.demo.sample.service.*")
