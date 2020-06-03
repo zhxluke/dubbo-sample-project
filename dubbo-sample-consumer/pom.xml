@@ -3,14 +3,13 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.0.RELEASE</version>
+        <groupId>com.lcb</groupId>
+        <artifactId>dubbo-sample-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.lcb</groupId>
-    <version>1.0.0-SNAPSHOT</version>
     <artifactId>dubbo-sample-consumer</artifactId>
     <name>Apache Dubbo Spring Boot :: Samples : Registry Nacos :: Consumer Sample</name>
     
@@ -19,14 +18,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.source.version>1.8</java.source.version>
         <java.target.version>1.8</java.target.version>
-        <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
-        <dubbo.version>2.7.7</dubbo.version>
-        <nacos.version>1.2.1</nacos.version>
-        
-        <!-- Maven plugins -->
-        <maven_compiler_version>3.8.1</maven_compiler_version>
-        <maven_surefire_version>2.19.1</maven_surefire_version>
-        <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
     </properties>
     
     <dependencies>
@@ -59,20 +50,17 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
-            <version>${dubbo.version}</version>
         </dependency>
 		   
         <!-- Dubbo Registry Nacos -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo-registry-nacos</artifactId>
-            <version>${dubbo.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-client</artifactId>
-            <version>${nacos.version}</version>
         </dependency>
 
         <dependency>
